@@ -1,0 +1,39 @@
+{
+    "name": "Dynamic_DS_data",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "data_lake_linked_service",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "p_sink_folder": {
+                "type": "String"
+            },
+            "p_sink_FileName": {
+                "type": "String"
+            }
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": {
+                    "value": "@dataset().p_sink_FileName",
+                    "type": "Expression"
+                },
+                "folderPath": {
+                    "value": "@dataset().p_sink_folder",
+                    "type": "Expression"
+                },
+                "fileSystem": "adventure-works-bronze"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

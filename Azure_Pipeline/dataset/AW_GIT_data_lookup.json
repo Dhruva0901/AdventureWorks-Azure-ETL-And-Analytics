@@ -1,0 +1,33 @@
+{
+    "name": "AW_GIT_data_lookup",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "data_lake_linked_service",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "GIT.json",
+                "fileSystem": "adventure-works-parameters"
+            }
+        },
+        "schema": {
+            "type": "object",
+            "properties": {
+                "p_rel_url": {
+                    "type": "string"
+                },
+                "p_sink_folder": {
+                    "type": "string"
+                },
+                "p_sink_FileName": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

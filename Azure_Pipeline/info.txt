@@ -1,0 +1,6 @@
+selected resource name:		dynamic_AW_GitToRaw
+selected resource type:		pipeline
+factory name:			azure-adventureworks-project
+factory location:		eastus
+subscription id:		40e4ecce-3790-449f-b53e-ac8203caa59c
+time of download (UTC):		Mon, 24 Mar 2025 06:42:05 GMT
