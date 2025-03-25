@@ -1,0 +1,52 @@
+[
+    {
+        "p_rel_url": "Dhruva0901/Azure-ETL-Project/refs/heads/main/Data/AdventureWorks_Calendar.csv",
+        "p_sink_folder": "AdventureWorks_Calendar",
+        "p_sink_FileName": "AdventureWorks_Calendar.csv"
+    },
+    {
+        "p_rel_url": "Dhruva0901/Azure-ETL-Project/refs/heads/main/Data/AdventureWorks_Customers.csv",
+        "p_sink_folder": "AdventureWorks_Customers",
+        "p_sink_FileName": "AdventureWorks_Customers.csv"
+    },
+    {
+        "p_rel_url": "Dhruva0901/Azure-ETL-Project/refs/heads/main/Data/AdventureWorks_Product_Categories.csv",
+        "p_sink_folder": "AdventureWorks_Product",
+        "p_sink_FileName": "AdventureWorks_Product_Categories.csv"
+    },
+    {
+        "p_rel_url": "Dhruva0901/Azure-ETL-Project/refs/heads/main/Data/AdventureWorks_Product_Subcategories.csv",
+        "p_sink_folder": "AdventureWorks_Product",
+        "p_sink_FileName": "AdventureWorks_Product_Subcategories.csv"
+    },
+    {
+        "p_rel_url": "Dhruva0901/Azure-ETL-Project/refs/heads/main/Data/AdventureWorks_Products.csv",
+        "p_sink_folder": "AdventureWorks_Product",
+        "p_sink_FileName": "AdventureWorks_Products.csv"
+    },
+    {
+        "p_rel_url": "Dhruva0901/Azure-ETL-Project/refs/heads/main/Data/AdventureWorks_Returns.csv",
+        "p_sink_folder": "AdventureWorks_Sales_and_Returns",
+        "p_sink_FileName": "AdventureWorks_Returns.csv"
+    },
+    {
+        "p_rel_url": "Dhruva0901/Azure-ETL-Project/refs/heads/main/Data/AdventureWorks_Sales_2015.csv",
+        "p_sink_folder": "AdventureWorks_Sales_and_Returns",
+        "p_sink_FileName": "AdventureWorks_Sales_2015.csv"
+    },
+    {
+        "p_rel_url": "Dhruva0901/Azure-ETL-Project/refs/heads/main/Data/AdventureWorks_Sales_2016.csv",
+        "p_sink_folder": "AdventureWorks_Sales_and_Returns",
+        "p_sink_FileName": "AdventureWorks_Sales_2016.csv"
+    },
+    {
+        "p_rel_url": "Dhruva0901/Azure-ETL-Project/refs/heads/main/Data/AdventureWorks_Sales_2017.csv",
+        "p_sink_folder": "AdventureWorks_Sales_and_Returns",
+        "p_sink_FileName": "AdventureWorks_Sales_2017.csv"
+    },
+    {
+        "p_rel_url": "Dhruva0901/Azure-ETL-Project/refs/heads/main/Data/AdventureWorks_Territories.csv",
+        "p_sink_folder": "AdventureWorks_Territories",
+        "p_sink_FileName": "AdventureWorks_Territories.csv"
+    }
+]
