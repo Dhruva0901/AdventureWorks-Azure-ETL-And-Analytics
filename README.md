@@ -27,7 +27,8 @@ Businesses require a scalable and automated data pipeline to extract, transform,
     - Improved performance by partitioning tables (e.g., by date) and implementing indexing to enable faster, more efficient queries on large datasets.
 
 ## Flow Architecture
-![Web_Photo_Editor](https://github.com/user-attachments/assets/612f98f5-97d7-401a-ba3d-c6f10afe0110)
+![Web_Photo_Editor](https://github.com/user-attachments/assets/ef5e9dca-6b68-432c-80cf-7e0e27b89939)
+
 
 
 
